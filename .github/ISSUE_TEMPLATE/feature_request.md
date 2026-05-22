@@ -1,45 +1,52 @@
 ---
 name: Feature request (Epic)
-about: Propose a new feature, improvement or larger initiative (Epic)
-title: "Epic: <name of the feature or initiative>"
-labels: ["epic", "enhancement", "needs-triage"]
-assignees: []
+about: Suggest a new feature or large enhancement (epic) for this project
+title: 'Epic: <short description of the feature>'
+labels: epic, enhancement, needs-triage
+assignees: ''
 ---
 
-## ✨ Feature Request Process
+## Summary
 
-Thanks for taking the time to suggest a new feature or epic. Please review the Feature Request Process below and complete the sections that follow.
+Briefly describe the feature or epic you would like to see implemented.
 
-1. **Discovery** – clarify the user problem and desired outcome.
-2. **Requirements Analysis** – gather acceptance criteria and constraints.
-3. **Design and Architecture** – produce a technical design and review it with the team.
-4. **Implementation** – build the change behind feature flags where appropriate.
-5. **Testing and Documentation** – verify behaviour and update docs and changelog.
+## Motivation / Problem Statement
 
-When the issue is opened, the automation workflow will create four sub-issues that map to the phases above.
-
-## Problem Statement
-
-What problem is this feature trying to solve? Who is affected?
+What problem does this feature solve? Who benefits from it and why?
 
 ## Proposed Solution
 
-Describe the solution you would like to see. Include UX, API or architectural notes where relevant.
+Describe what you would like to happen. If possible, include:
+
+- High-level approach
+- User-facing behavior
+- API or UI changes (if any)
 
 ## Alternatives Considered
 
-List any alternative solutions or features you have considered and why they were not selected.
+Describe any alternative solutions or features you have considered and why they
+were not chosen.
 
 ## Acceptance Criteria
 
-- [ ] Behaviour 1
-- [ ] Behaviour 2
-- [ ] Behaviour 3
+Provide a clear, testable list of conditions that must be met for this epic
+to be considered done:
 
-## Risks & Dependencies
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
 
-Outline any risks, dependencies, breaking changes or migrations required.
+## Sub-Tasks
+
+> Sub-tasks will be created automatically by the Issue Management Automation
+> workflow when this epic is opened. The standard breakdown is:
+>
+> 1. Requirements Analysis
+> 2. Design and Architecture
+> 3. Implementation
+> 4. Testing and Documentation
 
 ## Additional Context
 
-Add any other context, mockups, links or references about the request here.
+Add any other context, screenshots, mockups, or links that help describe the
+feature. Mention "high", "important", "critical", or "low" to suggest priority.
